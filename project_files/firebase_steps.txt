@@ -1,0 +1,18 @@
+Datastore (not really firebase)
+gcloud datastore indexes create index.yaml
+
+Firebase
+console.firebase.google.com
+select existing project
+confirm me-ing plan
+Tutorial instructions are not quite right. "Add firebase to your webapp" is hard to find.
+
+Under project settings general, look for "</>" which means web I guess. Click through that.
+
+
+Tutorial says add to head, wizard says end of body, but before any firebase use (which means beginning of body)
+
+Firebase usually automatically adds the appropriate appspot authorized domain.
+
+Tutorial neglects to mention to add this. It's part of that "TODO products you want to use" I guess.
+<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-auth.js"></script>
